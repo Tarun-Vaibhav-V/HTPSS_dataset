@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Model Files (too large for git - regenerate with train.py)
+models/*.pkl
+
+# Large PDF documentation
+icd10cm-tabular-2022-April-1.pdf
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large Dataset (too large for GitHub - 182MB)
+# Excluding to avoid push failures
+Disease and symptoms dataset.csv
+
+# Logs
+*.log

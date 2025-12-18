@@ -1,0 +1,163 @@
+📂 Loading model from models/disease_model.pkl...
+✅ Model loaded successfully!
+📂 Loading mappings from models/mappings.pkl...
+✅ Mappings loaded successfully!
+   - Symptoms: 131
+   - Diseases: 41
+============================================================
+🚀 Starting Data Preprocessing Pipeline
+============================================================
+📂 Loading dataset from: DiseaseAndSymptoms.csv
+✅ Dataset loaded successfully!
+   - Total rows: 4920
+   - Columns: ['Disease', 'Symptom_1', 'Symptom_2', 'Symptom_3', 'Symptom_4', 'Symptom_5', 'Symptom_6', 'Symptom_7', 'Symptom_8', 'Symptom_9', 'Symptom_10', 'Symptom_11', 'Symptom_12', 'Symptom_13', 'Symptom_14', 'Symptom_15', 'Symptom_16', 'Symptom_17']
+
+🔍 Extracting unique symptoms...
+✅ Found 131 unique symptoms
+   Sample symptoms: ['abdominal_pain', 'abnormal_menstruation', 'acidity', 'acute_liver_failure', 'altered_sensorium']
+
+🦠 Extracting unique diseases...
+✅ Found 41 unique diseases
+   Sample diseases: ['(vertigo) Paroymsal  Positional Vertigo', 'AIDS', 'Acne', 'Alcoholic hepatitis', 'Allergy']
+
+🔢 Creating symptom-disease matrix...
+✅ Matrix created successfully!
+   - Shape: (4920, 131) (rows, symptoms)
+   - Number of classes (diseases): 41
+
+✂️ Splitting data (test_size=0.2)...
+✅ Data split completed!
+   - Training samples: 3936
+   - Testing samples: 984
+
+============================================================
+✅ Preprocessing Pipeline Completed Successfully!
+============================================================
+
+================================================================================
+🚀 STARTING COMPLETE MODEL EVALUATION
+================================================================================
+================================================================================
+📊 OVERALL MODEL PERFORMANCE METRICS
+================================================================================
+
+✅ Overall Accuracy: 100.00%
+✅ Top-3 Accuracy: 100.00%
+✅ Top-5 Accuracy: 100.00%
+
+📈 Weighted Metrics:
+   Precision: 100.00%
+   Recall: 100.00%
+   F1-Score: 100.00%
+
+================================================================================
+🔍 PER-DISEASE PERFORMANCE ANALYSIS
+================================================================================
+
+🏆 TOP 10 BEST PERFORMING DISEASES (by F1-Score):
+--------------------------------------------------------------------------------
+ 1. (vertigo) Paroymsal  Positional Vertigo | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 2. Hepatitis D                    | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 3. Hypertension                   | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 4. Hyperthyroidism                | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 5. Hypoglycemia                   | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 6. Hypothyroidism                 | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 7. Impetigo                       | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 8. Jaundice                       | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 9. Malaria                        | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+10. Migraine                       | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+
+⚠️  10 WORST PERFORMING DISEASES (by F1-Score):
+--------------------------------------------------------------------------------
+ 1. Common Cold                    | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 2. Dengue                         | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 3. Diabetes                       | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 4. Dimorphic hemmorhoids(piles)   | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 5. Drug Reaction                  | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 6. Fungal infection               | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 7. GERD                           | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 8. Gastroenteritis                | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+ 9. Heart attack                   | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+10. hepatitis A                    | F1: 1.000 | Precision: 1.000 | Recall: 1.000 | Support: 24
+
+💾 Detailed report saved to: models/per_disease_performance.csv
+
+================================================================================
+🔀 CONFUSION PATTERN ANALYSIS
+================================================================================
+
+🚨 TOP 15 CONFUSION PAIRS (Actual → Incorrectly Predicted As):
+--------------------------------------------------------------------------------
+   ✅ Perfect predictions! No confusions found.
+
+📊 Total Misclassifications: 0 out of 984 (0.00%)
+
+================================================================================
+🎯 FEATURE IMPORTANCE ANALYSIS
+================================================================================
+
+🔝 TOP 20 MOST IMPORTANT SYMPTOMS:
+--------------------------------------------------------------------------------
+ 1. muscle_pain                              | 0.0190 
+ 2. mild_fever                               | 0.0167 
+ 3. family_history                           | 0.0157 
+ 4. lack_of_concentration                    | 0.0154 
+ 5. pain_behind_the_eyes                     | 0.0142 
+ 6. rusty_sputum                             | 0.0138 
+ 7. unsteadiness                             | 0.0138 
+ 8. altered_sensorium                        | 0.0136 
+ 9. blood_in_sputum                          | 0.0135 
+10. red_spots_over_body                      | 0.0132 
+11. internal_itching                         | 0.0129 
+12. coma                                     | 0.0129 
+13. mucoid_sputum                            | 0.0129 
+14. stomach_bleeding                         | 0.0126 
+15. yellowing_of_eyes                        | 0.0125 
+16. neck_pain                                | 0.0116 
+17. belly_pain                               | 0.0115 
+18. receiving_unsterile_injections           | 0.0114 
+19. joint_pain                               | 0.0113 
+20. diarrhoea                                | 0.0113 
+
+💾 Feature importance saved to: models/feature_importance.csv
+
+================================================================================
+🔬 ERROR ANALYSIS - MISCLASSIFIED SAMPLES
+================================================================================
+
+❌ Total Errors: 0 out of 984 samples
+   ✅ Perfect predictions! No errors to analyze.
+
+================================================================================
+📊 PERFORMANCE BY CONFIDENCE LEVEL
+================================================================================
+
+🎯 Accuracy by Confidence Range:
+--------------------------------------------------------------------------------
+Confidence 0%-30%: Accuracy = 100.00% (13 samples)
+Confidence 30%-50%: Accuracy = 100.00% (178 samples)
+Confidence 50%-70%: Accuracy = 100.00% (370 samples)
+Confidence 70%-90%: Accuracy = 100.00% (350 samples)
+Confidence 90%-100%: Accuracy = 100.00% (73 samples)
+
+================================================================================
+📈 GENERATING VISUALIZATIONS
+================================================================================
+   ✅ Saved: models/feature_importance.png
+   ✅ Saved: models/confidence_distribution.png
+
+================================================================================
+✅ EVALUATION COMPLETE!
+================================================================================
+
+📁 Generated Files:
+   • models/per_disease_performance.csv - Detailed per-disease metrics
+   • models/feature_importance.csv - Symptom importance scores
+   • models/feature_importance.png - Feature importance visualization
+   • models/confidence_distribution.png - Prediction confidence plot
+
+💡 KEY INSIGHTS:
+   • Overall accuracy: 100.00%
+   • Top-3 accuracy: 100.00%
+   • Check per_disease_performance.csv to see which diseases lag
+   • Review confusion patterns to understand misclassifications

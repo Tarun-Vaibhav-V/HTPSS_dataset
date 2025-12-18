@@ -1,0 +1,414 @@
+HYBRID DATASET STATISTICS
+============================================================
+
+total_samples: 229250
+train_samples: 183400
+test_samples: 45850
+num_symptoms: 424
+num_diseases: 402
+
+
+Diseases:
+------------------------------------------------------------
+(vertigo) Paroymsal  Positional Vertigo: train=96, test=24, total=120
+AIDS: train=96, test=24, total=120
+Acne: train=96, test=24, total=120
+Alcoholic hepatitis: train=96, test=24, total=120
+Allergy: train=96, test=24, total=120
+Arthritis: train=96, test=24, total=120
+Bronchial Asthma: train=96, test=24, total=120
+Cervical spondylosis: train=96, test=24, total=120
+Chicken pox: train=96, test=24, total=120
+Chronic cholestasis: train=96, test=24, total=120
+Common Cold: train=96, test=24, total=120
+Dengue: train=96, test=24, total=120
+Diabetes : train=96, test=24, total=120
+Dimorphic hemmorhoids(piles): train=96, test=24, total=120
+Drug Reaction: train=96, test=24, total=120
+Fungal infection: train=96, test=24, total=120
+GERD: train=96, test=24, total=120
+Gastroenteritis: train=96, test=24, total=120
+Heart attack: train=96, test=24, total=120
+Hepatitis B: train=96, test=24, total=120
+Hepatitis C: train=96, test=24, total=120
+Hepatitis D: train=96, test=24, total=120
+Hepatitis E: train=96, test=24, total=120
+Hypertension : train=96, test=24, total=120
+Hyperthyroidism: train=96, test=24, total=120
+Hypoglycemia: train=96, test=24, total=120
+Hypothyroidism: train=96, test=24, total=120
+Impetigo: train=96, test=24, total=120
+Jaundice: train=96, test=24, total=120
+Malaria: train=96, test=24, total=120
+Migraine: train=96, test=24, total=120
+Osteoarthristis: train=96, test=24, total=120
+Paralysis (brain hemorrhage): train=96, test=24, total=120
+Peptic ulcer diseae: train=96, test=24, total=120
+Pneumonia: train=96, test=24, total=120
+Psoriasis: train=96, test=24, total=120
+Tuberculosis: train=96, test=24, total=120
+Typhoid: train=96, test=24, total=120
+Urinary tract infection: train=96, test=24, total=120
+Varicose veins: train=96, test=24, total=120
+abdominal hernia: train=326, test=81, total=407
+abscess of nose: train=232, test=58, total=290
+abscess of the pharynx: train=273, test=68, total=341
+acne: train=397, test=99, total=496
+actinic keratosis: train=727, test=182, total=909
+acute bronchiolitis: train=963, test=241, total=1204
+acute bronchitis: train=970, test=243, total=1213
+acute bronchospasm: train=725, test=181, total=906
+acute glaucoma: train=168, test=42, total=210
+acute kidney injury: train=726, test=182, total=908
+acute otitis media: train=546, test=137, total=683
+acute pancreatitis: train=966, test=241, total=1207
+acute respiratory distress syndrome (ards): train=361, test=90, total=451
+acute sinusitis: train=725, test=181, total=906
+acute stress reaction: train=728, test=182, total=910
+adjustment reaction: train=402, test=101, total=503
+alcohol abuse: train=408, test=102, total=510
+alcohol intoxication: train=281, test=70, total=351
+alcohol withdrawal: train=532, test=133, total=665
+alcoholic liver disease: train=197, test=49, total=246
+allergy: train=724, test=181, total=905
+alopecia: train=272, test=68, total=340
+alzheimer disease: train=269, test=67, total=336
+anal fissure: train=181, test=45, total=226
+anemia: train=265, test=66, total=331
+angina: train=725, test=181, total=906
+ankylosing spondylitis: train=485, test=121, total=606
+anxiety: train=959, test=239, total=1198
+aortic valve disease: train=361, test=90, total=451
+aphthous ulcer: train=195, test=49, total=244
+appendicitis: train=722, test=181, total=903
+arrhythmia: train=206, test=52, total=258
+arthritis of the hip: train=968, test=242, total=1210
+asperger syndrome: train=270, test=68, total=338
+asthma: train=723, test=181, total=904
+astigmatism: train=257, test=64, total=321
+athlete's foot: train=306, test=76, total=382
+atrial flutter: train=192, test=48, total=240
+atrophic skin condition: train=350, test=88, total=438
+atrophic vaginitis: train=263, test=66, total=329
+attention deficit hyperactivity disorder (adhd): train=406, test=101, total=507
+autism: train=362, test=90, total=452
+balanitis: train=363, test=91, total=454
+bell palsy: train=548, test=137, total=685
+benign kidney cyst: train=165, test=41, total=206
+benign paroxysmal positional vertical (bppv): train=354, test=89, total=443
+benign prostatic hyperplasia (bph): train=965, test=241, total=1206
+benign vaginal discharge (leukorrhea): train=546, test=136, total=682
+bipolar disorder: train=530, test=133, total=663
+bladder disorder: train=363, test=91, total=454
+bladder obstruction: train=270, test=68, total=338
+blepharitis: train=725, test=181, total=906
+bone disorder: train=204, test=51, total=255
+brachial neuritis: train=726, test=181, total=907
+brain cancer: train=182, test=45, total=227
+breast infection (mastitis): train=401, test=100, total=501
+bursitis: train=966, test=242, total=1208
+callus: train=410, test=103, total=513
+cardiac arrest: train=277, test=69, total=346
+cardiomyopathy: train=249, test=62, total=311
+carpal tunnel syndrome: train=717, test=179, total=896
+cataract: train=486, test=121, total=607
+cervicitis: train=307, test=77, total=384
+chalazion: train=542, test=136, total=678
+cholecystitis: train=963, test=241, total=1204
+choledocholithiasis: train=353, test=88, total=441
+chronic back pain: train=719, test=180, total=899
+chronic constipation: train=730, test=183, total=913
+chronic glaucoma: train=534, test=134, total=668
+chronic obstructive pulmonary disease (copd): train=725, test=181, total=906
+chronic otitis media: train=535, test=134, total=669
+chronic pain disorder: train=542, test=135, total=677
+chronic pancreatitis: train=238, test=59, total=297
+chronic sinusitis: train=526, test=131, total=657
+cirrhosis: train=265, test=66, total=331
+colonic polyp: train=271, test=68, total=339
+common cold: train=724, test=181, total=905
+complex regional pain syndrome: train=974, test=243, total=1217
+concussion: train=953, test=238, total=1191
+conduct disorder: train=543, test=136, total=679
+conductive hearing loss: train=478, test=120, total=598
+conjunctivitis: train=727, test=182, total=909
+conjunctivitis due to allergy: train=972, test=243, total=1215
+conjunctivitis due to virus: train=545, test=136, total=681
+contact dermatitis: train=727, test=182, total=909
+cornea infection: train=722, test=181, total=903
+corneal abrasion: train=400, test=100, total=500
+corneal disorder: train=541, test=135, total=676
+cranial nerve palsy: train=272, test=68, total=340
+crohn disease: train=301, test=75, total=376
+croup: train=723, test=181, total=904
+cystitis: train=975, test=244, total=1219
+deep vein thrombosis (dvt): train=192, test=48, total=240
+degenerative disc disease: train=727, test=182, total=909
+delirium: train=478, test=120, total=598
+dementia: train=271, test=68, total=339
+dental caries: train=948, test=237, total=1185
+depression: train=730, test=182, total=912
+dermatitis due to sun exposure: train=357, test=89, total=446
+developmental disability: train=729, test=182, total=911
+deviated nasal septum: train=486, test=121, total=607
+diabetic ketoacidosis: train=538, test=135, total=673
+diabetic peripheral neuropathy: train=362, test=90, total=452
+diabetic retinopathy: train=365, test=91, total=456
+diaper rash: train=718, test=179, total=897
+diverticulitis: train=971, test=243, total=1214
+diverticulosis: train=538, test=135, total=673
+drug abuse: train=482, test=121, total=603
+drug abuse (cocaine): train=225, test=56, total=281
+drug abuse (methamphetamine): train=264, test=66, total=330
+drug abuse (opioids): train=483, test=121, total=604
+drug poisoning due to medication: train=166, test=42, total=208
+drug reaction: train=727, test=182, total=909
+drug withdrawal: train=204, test=51, total=255
+dry eye of unknown cause: train=689, test=172, total=861
+dysthymic disorder: train=399, test=100, total=499
+ear drum damage: train=726, test=181, total=907
+ear wax impaction: train=542, test=136, total=678
+eating disorder: train=395, test=99, total=494
+ectopic pregnancy: train=273, test=68, total=341
+eczema: train=966, test=241, total=1207
+endometriosis: train=302, test=76, total=378
+envenomation from spider or animal bite: train=364, test=91, total=455
+epididymitis: train=409, test=102, total=511
+erectile dysfunction: train=485, test=121, total=606
+esophagitis: train=972, test=243, total=1215
+eustachian tube dysfunction (ear disorder): train=727, test=182, total=909
+eye alignment disorder: train=362, test=91, total=453
+fibromyalgia: train=525, test=131, total=656
+flu: train=543, test=136, total=679
+fluid overload: train=262, test=65, total=327
+food allergy: train=363, test=91, total=454
+foreign body in the eye: train=225, test=56, total=281
+fracture of the arm: train=350, test=87, total=437
+fracture of the facial bones: train=359, test=90, total=449
+fracture of the leg: train=542, test=136, total=678
+fracture of the rib: train=706, test=176, total=882
+fracture of the vertebra: train=216, test=54, total=270
+fungal infection of the hair: train=970, test=242, total=1212
+fungal infection of the skin: train=546, test=137, total=683
+gallstone: train=723, test=181, total=904
+ganglion cyst: train=540, test=135, total=675
+gastritis: train=543, test=136, total=679
+gastroduodenal ulcer: train=546, test=137, total=683
+gastroesophageal reflux disease (gerd): train=358, test=90, total=448
+gastrointestinal hemorrhage: train=971, test=243, total=1214
+genital herpes: train=194, test=48, total=242
+glaucoma: train=398, test=100, total=498
+gout: train=969, test=242, total=1211
+graves disease: train=198, test=50, total=248
+gum disease: train=715, test=179, total=894
+head and neck cancer: train=261, test=65, total=326
+heart attack: train=726, test=181, total=907
+heart block: train=485, test=121, total=606
+heart failure: train=722, test=181, total=903
+heat exhaustion: train=211, test=53, total=264
+hemangioma: train=541, test=135, total=676
+hemiplegia: train=403, test=101, total=504
+hemorrhoids: train=726, test=182, total=908
+hepatitis A: train=96, test=24, total=120
+hepatitis due to a toxin: train=286, test=71, total=357
+herniated disk: train=726, test=182, total=908
+herpangina: train=360, test=90, total=450
+hiatal hernia: train=725, test=181, total=906
+hydrocele of the testicle: train=182, test=45, total=227
+hydronephrosis: train=272, test=68, total=340
+hyperemesis gravidarum: train=730, test=182, total=912
+hyperkalemia: train=526, test=131, total=657
+hypertensive heart disease: train=722, test=180, total=902
+hypoglycemia: train=972, test=243, total=1215
+hypokalemia: train=382, test=96, total=478
+hyponatremia: train=396, test=99, total=495
+hypovolemia: train=339, test=85, total=424
+idiopathic absence of menstruation: train=394, test=99, total=493
+idiopathic excessive menstruation: train=725, test=181, total=906
+idiopathic irregular menstrual cycle: train=726, test=182, total=908
+idiopathic painful menstruation: train=725, test=181, total=906
+ileus: train=359, test=90, total=449
+impetigo: train=546, test=137, total=683
+impulse control disorder: train=268, test=67, total=335
+indigestion: train=358, test=89, total=447
+induced abortion: train=230, test=57, total=287
+infectious gastroenteritis: train=970, test=242, total=1212
+ingrown toe nail: train=483, test=121, total=604
+inguinal hernia: train=322, test=80, total=402
+injury to the arm: train=967, test=242, total=1209
+injury to the face: train=364, test=91, total=455
+injury to the leg: train=965, test=241, total=1206
+injury to the shoulder: train=408, test=102, total=510
+injury to the trunk: train=724, test=181, total=905
+insect bite: train=535, test=134, total=669
+interstitial lung disease: train=409, test=102, total=511
+intestinal disease: train=306, test=77, total=383
+intestinal obstruction: train=356, test=89, total=445
+intracerebral hemorrhage: train=482, test=121, total=603
+intracranial hemorrhage: train=258, test=64, total=322
+iridocyclitis: train=397, test=99, total=496
+iron deficiency anemia: train=546, test=137, total=683
+irritable bowel syndrome: train=408, test=102, total=510
+ischemia of the bowel: train=226, test=57, total=283
+ischemic heart disease: train=709, test=177, total=886
+itching of unknown cause: train=403, test=101, total=504
+jaw disorder: train=269, test=67, total=336
+joint effusion: train=359, test=90, total=449
+kidney failure: train=226, test=56, total=282
+kidney stone: train=723, test=181, total=904
+labyrinthitis: train=523, test=131, total=654
+laryngitis: train=542, test=136, total=678
+lateral epicondylitis (tennis elbow): train=270, test=67, total=337
+lipoma: train=547, test=137, total=684
+liver disease: train=967, test=242, total=1209
+lyme disease: train=169, test=42, total=211
+lymphadenitis: train=362, test=91, total=453
+lymphedema: train=404, test=101, total=505
+macular degeneration: train=727, test=182, total=909
+marijuana abuse: train=968, test=242, total=1210
+melanoma: train=217, test=54, total=271
+meniere disease: train=225, test=56, total=281
+meningitis: train=238, test=59, total=297
+migraine: train=177, test=44, total=221
+missed abortion: train=300, test=75, total=375
+mitral valve disease: train=403, test=101, total=504
+molluscum contagiosum: train=409, test=102, total=511
+mononeuritis: train=541, test=135, total=676
+mononucleosis: train=265, test=66, total=331
+mucositis: train=231, test=58, total=289
+multiple sclerosis: train=728, test=182, total=910
+muscle spasm: train=542, test=136, total=678
+myopia: train=358, test=90, total=448
+nasal polyp: train=285, test=71, total=356
+nerve impingement near the shoulder: train=224, test=56, total=280
+neuralgia: train=547, test=137, total=684
+neurosis: train=722, test=180, total=902
+noninfectious gastroenteritis: train=965, test=241, total=1206
+nose disorder: train=975, test=243, total=1218
+obsessive compulsive disorder (ocd): train=363, test=91, total=454
+obstructive sleep apnea (osa): train=957, test=239, total=1196
+onychomycosis: train=404, test=101, total=505
+oppositional disorder: train=345, test=86, total=431
+oral mucosal lesion: train=485, test=121, total=606
+oral thrush (yeast infection): train=545, test=136, total=681
+orthostatic hypotension: train=226, test=57, total=283
+osteoarthritis: train=717, test=179, total=896
+osteochondroma: train=169, test=42, total=211
+osteoporosis: train=302, test=76, total=378
+otitis externa (swimmer's ear): train=723, test=181, total=904
+otitis media: train=728, test=182, total=910
+ovarian cyst: train=399, test=100, total=499
+overflow incontinence: train=170, test=42, total=212
+pain after an operation: train=726, test=182, total=908
+pain disorder affecting the neck: train=310, test=77, total=387
+pancreatic cancer: train=163, test=41, total=204
+panic disorder: train=727, test=182, total=909
+parkinson disease: train=410, test=103, total=513
+paronychia: train=350, test=88, total=438
+paroxysmal supraventricular tachycardia: train=300, test=75, total=375
+paroxysmal ventricular tachycardia: train=537, test=134, total=671
+pelvic inflammatory disease: train=720, test=180, total=900
+pelvic organ prolapse: train=350, test=88, total=438
+peripheral nerve disorder: train=972, test=243, total=1215
+peritonitis: train=305, test=76, total=381
+peritonsillar abscess: train=197, test=49, total=246
+personality disorder: train=729, test=182, total=911
+pilonidal cyst: train=271, test=68, total=339
+pleural effusion: train=486, test=121, total=607
+pneumonia: train=970, test=242, total=1212
+pneumothorax: train=237, test=59, total=296
+polycystic ovarian syndrome (pcos): train=214, test=54, total=268
+post-traumatic stress disorder (ptsd): train=486, test=121, total=607
+postpartum depression: train=395, test=99, total=494
+preeclampsia: train=174, test=43, total=217
+premature atrial contractions (pacs): train=176, test=44, total=220
+premature ventricular contractions (pvcs): train=260, test=65, total=325
+presbyopia: train=170, test=42, total=212
+problem during pregnancy: train=731, test=182, total=913
+prostatitis: train=545, test=136, total=681
+psoriasis: train=730, test=182, total=912
+psychotic disorder: train=722, test=180, total=902
+pterygium: train=172, test=43, total=215
+pulmonary congestion: train=398, test=99, total=497
+pulmonary embolism: train=704, test=176, total=880
+pulmonary hypertension: train=357, test=89, total=446
+pyelonephritis: train=722, test=181, total=903
+pyogenic skin infection: train=729, test=182, total=911
+rectal disorder: train=722, test=180, total=902
+restless leg syndrome: train=226, test=57, total=283
+retinal detachment: train=224, test=56, total=280
+rheumatoid arthritis: train=542, test=136, total=678
+rosacea: train=542, test=136, total=678
+sarcoidosis: train=264, test=66, total=330
+scar: train=205, test=51, total=256
+schizophrenia: train=712, test=178, total=890
+sciatica: train=534, test=134, total=668
+scleroderma: train=270, test=68, total=338
+seasonal allergies (hay fever): train=728, test=182, total=910
+sebaceous cyst: train=730, test=183, total=913
+seborrheic dermatitis: train=704, test=176, total=880
+seborrheic keratosis: train=696, test=174, total=870
+sensorineural hearing loss: train=545, test=136, total=681
+sepsis: train=727, test=182, total=909
+shingles (herpes zoster): train=303, test=76, total=379
+sialoadenitis: train=407, test=102, total=509
+sickle cell anemia: train=181, test=45, total=226
+sickle cell crisis: train=730, test=183, total=913
+sinus bradycardia: train=727, test=182, total=909
+skin cancer: train=529, test=132, total=661
+skin disorder: train=541, test=135, total=676
+skin pigmentation disorder: train=727, test=182, total=909
+skin polyp: train=718, test=179, total=897
+smoking or tobacco addiction: train=706, test=177, total=883
+social phobia: train=409, test=102, total=511
+spinal stenosis: train=966, test=241, total=1207
+spondylitis: train=361, test=90, total=451
+spondylolisthesis: train=538, test=135, total=673
+spondylosis: train=973, test=243, total=1216
+spontaneous abortion: train=970, test=242, total=1212
+sprain or strain: train=970, test=242, total=1212
+strep throat: train=968, test=242, total=1210
+stress incontinence: train=204, test=51, total=255
+stroke: train=514, test=128, total=642
+stye: train=726, test=182, total=908
+subconjunctival hemorrhage: train=199, test=50, total=249
+substance-related mental disorder: train=170, test=43, total=213
+teething syndrome: train=350, test=88, total=438
+temporary or benign blood in urine: train=718, test=179, total=897
+temporomandibular joint disorder: train=273, test=68, total=341
+tendinitis: train=542, test=136, total=678
+tension headache: train=223, test=56, total=279
+threatened pregnancy: train=724, test=181, total=905
+thrombophlebitis: train=361, test=90, total=451
+thyroid nodule: train=173, test=43, total=216
+tietze syndrome: train=266, test=67, total=333
+tinnitus of unknown cause: train=223, test=56, total=279
+tonsillar hypertrophy: train=271, test=68, total=339
+tonsillitis: train=357, test=89, total=446
+tooth abscess: train=535, test=134, total=669
+tooth disorder: train=537, test=134, total=671
+torticollis: train=224, test=56, total=280
+transient ischemic attack: train=524, test=131, total=655
+trichomonas infection: train=271, test=68, total=339
+trigeminal neuralgia: train=161, test=40, total=201
+ulcerative colitis: train=302, test=75, total=377
+urethral disorder: train=252, test=63, total=315
+urethral stricture: train=223, test=56, total=279
+urethritis: train=362, test=91, total=453
+urge incontinence: train=396, test=99, total=495
+urinary tract infection: train=728, test=182, total=910
+urinary tract obstruction: train=546, test=137, total=683
+uterine atony: train=175, test=44, total=219
+uterine fibroids: train=360, test=90, total=450
+vaginal cyst: train=972, test=243, total=1215
+vaginal yeast infection: train=486, test=122, total=608
+vaginitis: train=727, test=182, total=909
+varicocele of the testicles: train=546, test=136, total=682
+vasculitis: train=239, test=60, total=299
+venous insufficiency: train=269, test=67, total=336
+viral exanthem: train=481, test=120, total=601
+viral warts: train=362, test=91, total=453
+vitreous degeneration: train=273, test=68, total=341
+vulvodynia: train=975, test=243, total=1218
+white blood cell disease: train=403, test=101, total=504
+yeast infection: train=376, test=94, total=470
